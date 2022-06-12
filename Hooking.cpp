@@ -104,13 +104,19 @@ namespace CODWAW_SP {
 		uintptr_t addr = (dwGameBase + Ptr);
 		for (unsigned int i = 0; i < Offsets.size(); i++)
 		{
-			if (*(int*)addr == NULL) break;
+			if (*(int*)addr == NULL) 
+				break;
 			addr = *(uintptr_t*)addr;
-			if (addr == NULL) break;
+			
+			if (addr == NULL) 
+				break;
 			addr += Offsets[i];
 		}
+		//	Our pointer was either null or we encountered an error, in your function call include a method to see if the resolved ptr is = to the original ptr
+		//	This is an advanced version of FindDMAAdy from GuidedHacking
 		if (addr == NULL)
 			return Ptr;
+
 		return addr;
 	}
 }
