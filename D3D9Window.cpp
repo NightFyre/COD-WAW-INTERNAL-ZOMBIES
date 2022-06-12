@@ -109,15 +109,6 @@ namespace CODWAW_SP {
 			CreateWindowHook(92, (void**)&oSetVertexShader, MJSetVertexShader);
 			CreateWindowHook(107, (void**)&oSetPixelShader, MJSetPixelShader);
 
-			///FUNCTION HOOKS
-			//HookCursor();
-			//ShowCursor();
-			//GetCursor();
-			
-			///	WRAPPED FUNCTION HOOKS
-			//CreateFunctionHook(SetCursorPos, (void**)&SetCursorPos_hook, origSetCursorPos);
-			//CreateFunctionHook(ShowCursor, (void**)&ShowCursor_hook, origShowCursor);
-
 #if DEVELOPER
 			g_Console->printdbg("D3D11Window::Hook Initialized\n", g_Console->color.pink);
 #endif
@@ -378,21 +369,4 @@ namespace CODWAW_SP {
 		vecscreen.y = -(windowHeight / 2 * NDC.y) + (NDC.y + windowHeight / 2);
 		return TRUE;
 	}
-		//vecscreen.x = vecOrigin.x * matrix[0] + vecOrigin.y * matrix[1] + vecOrigin.z * matrix[2] + matrix[3];
-		//vecscreen.y = vecOrigin.x * matrix[4] + vecOrigin.y * matrix[5] + vecOrigin.z * matrix[6] + matrix[7];
-		//float w = vecOrigin.x * matrix[12] + vecOrigin.y * matrix[13] + vecOrigin.z * matrix[14] + matrix[15];
-
-		//if (w < 0.1f)
-		//	return false;
-
-		//Vector2 NDC;
-		//NDC.x = vecscreen.x / w;
-		//NDC.y = vecscreen.y / w;
-
-		//vecscreen.x = (windowWidth / 2 * NDC.x) + (NDC.x + windowWidth / 2);
-		//vecscreen.y = (windowHeight / 2 * NDC.y) + (NDC.y + windowHeight / 2);
-
-		//ConvertToRange(vecscreen, ImVec2(windowWidth, windowHeight));
-		//return true;
-	//}
 }

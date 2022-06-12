@@ -42,43 +42,40 @@
     <ClCompile Include="Menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\ImGui\imgui.cpp">
+    <ClCompile Include="libs\ImGui\imgui.cpp">
       <Filter>libs\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\ImGui\imgui_demo.cpp">
+    <ClCompile Include="libs\ImGui\imgui_demo.cpp">
       <Filter>libs\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\ImGui\imgui_draw.cpp">
+    <ClCompile Include="libs\ImGui\imgui_draw.cpp">
       <Filter>libs\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\ImGui\imgui_impl_win32.cpp">
+    <ClCompile Include="libs\ImGui\imgui_impl_dx9.cpp">
       <Filter>libs\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\ImGui\imgui_tables.cpp">
+    <ClCompile Include="libs\ImGui\imgui_impl_win32.cpp">
       <Filter>libs\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\ImGui\imgui_widgets.cpp">
+    <ClCompile Include="libs\ImGui\imgui_tables.cpp">
       <Filter>libs\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\ImGui\backends\imgui_impl_dx9.cpp">
+    <ClCompile Include="libs\ImGui\imgui_widgets.cpp">
       <Filter>libs\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\ImGui\backends\imgui_impl_win32.cpp">
-      <Filter>libs\ImGui</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\MinHook\buffer.c">
+    <ClCompile Include="libs\MinHook\buffer.c">
       <Filter>libs\MinHook</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\MinHook\hde32.c">
+    <ClCompile Include="libs\MinHook\hde32.c">
       <Filter>libs\MinHook</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\MinHook\hde64.c">
+    <ClCompile Include="libs\MinHook\hde64.c">
       <Filter>libs\MinHook</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\MinHook\hook.c">
+    <ClCompile Include="libs\MinHook\hook.c">
       <Filter>libs\MinHook</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\libs\INTERNAL\MinHook\trampoline.c">
+    <ClCompile Include="libs\MinHook\trampoline.c">
       <Filter>libs\MinHook</Filter>
     </ClCompile>
   </ItemGroup>
@@ -101,55 +98,52 @@
     <ClInclude Include="Menu.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\ImGui\imconfig.h">
+    <ClInclude Include="libs\ImGui\imconfig.h">
       <Filter>libs\ImGui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\ImGui\imgui.h">
+    <ClInclude Include="libs\ImGui\imgui.h">
       <Filter>libs\ImGui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\ImGui\imgui_impl_win32.h">
+    <ClInclude Include="libs\ImGui\imgui_impl_dx9.h">
       <Filter>libs\ImGui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\ImGui\imgui_internal.h">
+    <ClInclude Include="libs\ImGui\imgui_impl_win32.h">
       <Filter>libs\ImGui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\ImGui\imstb_rectpack.h">
+    <ClInclude Include="libs\ImGui\imgui_internal.h">
       <Filter>libs\ImGui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\ImGui\imstb_textedit.h">
+    <ClInclude Include="libs\ImGui\imstb_rectpack.h">
       <Filter>libs\ImGui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\ImGui\imstb_truetype.h">
+    <ClInclude Include="libs\ImGui\imstb_textedit.h">
       <Filter>libs\ImGui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\ImGui\backends\imgui_impl_dx9.h">
+    <ClInclude Include="libs\ImGui\imstb_truetype.h">
       <Filter>libs\ImGui</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\ImGui\backends\imgui_impl_win32.h">
-      <Filter>libs\ImGui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\MinHook\buffer.h">
+    <ClInclude Include="libs\MinHook\buffer.h">
       <Filter>libs\MinHook</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\MinHook\hde32.h">
+    <ClInclude Include="libs\MinHook\hde32.h">
       <Filter>libs\MinHook</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\MinHook\hde64.h">
+    <ClInclude Include="libs\MinHook\hde64.h">
       <Filter>libs\MinHook</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\MinHook\MinHook.h">
+    <ClInclude Include="libs\MinHook\MinHook.h">
       <Filter>libs\MinHook</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\MinHook\pstdint.h">
+    <ClInclude Include="libs\MinHook\pstdint.h">
       <Filter>libs\MinHook</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\MinHook\table32.h">
+    <ClInclude Include="libs\MinHook\table32.h">
       <Filter>libs\MinHook</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\MinHook\table64.h">
+    <ClInclude Include="libs\MinHook\table64.h">
       <Filter>libs\MinHook</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\libs\INTERNAL\MinHook\trampoline.h">
+    <ClInclude Include="libs\MinHook\trampoline.h">
       <Filter>libs\MinHook</Filter>
     </ClInclude>
   </ItemGroup>

@@ -23,11 +23,11 @@
 #pragma comment(lib, "wininet.lib")
 
 //	EXTERNAL LIBS (ImGui & MinHook)
-#include "../../../libs/INTERNAL/ImGui/imgui.h"
-#include "../../../libs/INTERNAL/ImGui/imgui_internal.h"
-#include "../../../libs/INTERNAL/ImGui/backends/imgui_Impl_dx9.h"
-#include "../../../libs/INTERNAL/ImGui/backends/imgui_Impl_Win32.h"
-#include "../../../libs/INTERNAL/MinHook/MinHook.h"
+#include "libs/ImGui/imgui.h"
+#include "libs/ImGui/imgui_internal.h"
+#include "libs/ImGui/imgui_Impl_dx9.h"
+#include "libs/ImGui/imgui_Impl_Win32.h"
+#include "libs/MinHook/MinHook.h"
 
 /// <summary>
 ///	Global Variables accessible by anything in the DX9Base Namespace
@@ -53,15 +53,15 @@ namespace CODWAW_SP {
 	};
 
 	struct DoubleVector2 {
-		float x, y;
+		double x, y;
 	};
 
 	struct DoubleVector3 {
-		float x, y, z;
+		double x, y, z;
 	};
 
 	struct DoubleVector4 {
-		float x, y, z, a;
+		double x, y, z, a;
 	};
 
 	struct matrix
